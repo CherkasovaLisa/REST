@@ -150,9 +150,9 @@ namespace TaskVariant {
     // ------------------------------------------------------------------------
     inline std::string to_json(const Output& out) {
         JObj o;
-        o.num("productivity", out.productivity);
-        o.num("time_utilization_coeff", out.time_utilization_coeff);
-        o.num("growth_reserves", out.growth_reserves);
+        o.str("productivity", out.str_productivity);
+        o.str("time_utilization_coeff", out.str_time_utilization);
+        o.str("growth_reserves", out.str_growth_reserves);
         return o.str();
     }
 
