@@ -17,6 +17,8 @@
 
 #include <string>
 #include <cmath>
+#include <sstream>
+#include <iomanip>
 #include "../../json.hpp"
 
 namespace TaskVariant {
